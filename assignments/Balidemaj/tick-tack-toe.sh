@@ -1,4 +1,4 @@
-#! /bin/bash
+
 #
 # Made by RandomGuy
 # Started on 16-2-2022 - completed on 18-2-2022
@@ -18,7 +18,7 @@ Noc="\e[0m"
 pause_(){ read -t 2 -sn1 -p "Press any key to continue..."; }
 
 draw_screen_(){
-	clear
+	clear	
 
 	board=( " ${xy[0]} | ${xy[1]} | ${xy[2]}"\
 		"---|---|---"\
